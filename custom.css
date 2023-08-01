@@ -1,0 +1,37 @@
+/* Style for the modal popup */
+.modal {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the background */
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a slight shadow */
+  }
+  
+  /* Style for modal text */
+  .modal-content p {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for modal button */
+  .modal-content button {
+    background-color: #e91e63; /* Pink background color */
+    color: #fff; /* White text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-content button:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+  }
+  
